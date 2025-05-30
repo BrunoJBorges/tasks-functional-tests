@@ -13,7 +13,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 public class TasksTest {
 	
 	public WebDriver acessarAplicacao() {
-		 try {
+		try {
 	        ChromeOptions options = new ChromeOptions();
 	        WebDriver driver = new RemoteWebDriver(new URL("http://192.168.4.95:4444/wd/hub"), options); // URL do Selenium Grid
 
